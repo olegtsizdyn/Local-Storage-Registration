@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_block{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.sing_in, .sing_up{
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    color: royalblue;
+    text-align: lef;
+}
+
+.sing_in, .sing_up:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+input{
+    margin-top: 30px;
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    background: white;
+}
+
+#sing_up{
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    background: royalblue;
+    box-shadow: none;
+    color: white;
+}
+#sing_in{
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    background: royalblue;
+    box-shadow: none;
+    color: white;
+}
+#sing_up:hover{
+    cursor: pointer;
+}
+#sing_in:hover{
+    cursor: pointer;
+}
+.autorize_block{
+    width: 450px;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user_card{
+    width: 450px;
+    background: white;
+    border-radius: 5px;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.avatar{
+    margin-top: 30px;
+    width: 130px;
+    height: 130px;
+    background: url(https://png.pngtree.com/element_our/png/20181206/users-vector-icon-png_260862.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 115%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#log_off{
+    margin-top: 130px;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    background: rgb(47, 187, 47);
+    box-shadow: none;
+    color: white;
+}
+#log_off:hover{
+    cursor: pointer;
+}
+.user_card_name{
+    font-size: 35px;
+    margin-top: 50px;
+    color: black;
+}
+.user_card_email{
+    font-size: 22px;
+    margin-top: 20px;
+    color: gray;
+}
+.user_card_position{
+    font-size: 22px;
+    margin-top: 20px;
+    color: gray;
+}

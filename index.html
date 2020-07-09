@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="register_block">
+            <h1>Please sing up</h1>
+            <input type="text" placeholder="First name" id="first_name">
+            <input type="text" placeholder="Last name" id="last_name">
+            <input type="email" placeholder="Email" id="email">
+            <input type="password" placeholder="Password" id="password">
+    
+            <input type="button" value="Sign Up" id="sing_up" onclick="sign_up()">
+            <p class="sing_in" onclick="show_sign_in()">Sign In now</p>
+        </div>
+
+        <div class="autorize_block">
+            <h1>Please sing in</h1>
+            <input type="email" placeholder="Email" id="email_autorize">
+            <input type="password" placeholder="Password" id="password_autorize">
+    
+            <input type="button" value="Sign In" id="sing_in" onclick="sign_in()">
+            <p class="sing_up" onclick="show_sign_up()">Sign Up now</p>
+        </div>
+
+        <div class="user_card">
+            <div class="avatar"></div>
+            <p class="user_card_name">Name name</p>
+            <p class="user_card_email">email</p>
+            <p class="user_card_position">position</p>
+    
+            <input type="button" value="Log Off" id="log_off" onclick="show_sign_in()">
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
